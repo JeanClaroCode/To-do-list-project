@@ -1,12 +1,13 @@
-.todoprincipal{
+#todoprincipal{
     width: 40%;
-    background: white;
+    background-color: rgb(255, 255, 255, 0.85);
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: -90px auto 0;
+
 }
 
 .Todotext {
@@ -22,12 +23,14 @@
 body {
     height: 100vh;
     margin: 0;
-    background-image: linear-gradient(
-        0deg, 
-        rgba(183, 31, 230, 0.486) 23.8%,
-        rgb(0, 86, 247) 92% 
-        );
+    padding: 0;
+    background-image: url('../Imagens/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+  
 
 h1{
     margin-bottom: 10%;
