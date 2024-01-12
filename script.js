@@ -29,7 +29,7 @@ buttonAddTask.addEventListener('click', function(event) {
     createNewTaskDiv.appendChild(createDivButton)
     var createButtonimg = document.createElement('img')
     createButtonimg.id = 'remove'
-    createButtonimg.src = 'Imagens/trash3.svg'
+    createButtonimg.src = "Imagens/trash3.svg"
     createButtonimg.alt = 'trash3'
     createDivButton.appendChild(createButtonimg)}
 
