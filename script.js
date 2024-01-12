@@ -1,6 +1,5 @@
 var buttonAddTask = document.querySelector('.btn.btn-primary');
 
-
 buttonAddTask.addEventListener('click', function(event) {
     let taskTextContent = document.querySelector('.form-control').value;
     if(taskTextContent !== "") {
@@ -14,7 +13,7 @@ buttonAddTask.addEventListener('click', function(event) {
     var newCheckTask = document.createElement('input')
     newCheckTask.type = 'checkbox' ;
     newCheckTask.id = 'check';
-    newCheckTask.name = 'sales';
+    newCheckTask.name = 'scales';
     createNewTaskDiv.appendChild(newCheckTask)
 
     var newSpanTextContent = document.createElement('span')
@@ -31,7 +30,25 @@ buttonAddTask.addEventListener('click', function(event) {
     createButtonimg.src = '/Imagens/trash3.svg'
     createButtonimg.alt = 'trash3'
     createDivButton.appendChild(createButtonimg)}
+
+    createButtonimg.addEventListener('click', function(event){
+        console.log("clicado")
+        selectDivMainly.removeChild(newTaskDiv)
+    })
+    
+    var selectTaskToVerify = newCheckTask 
+    let taskChecked = newSpanTextContent
+    console.log(selectTaskToVerify.value)
+    selectTaskToVerify.addEventListener('change', function(event) {
+
+        if(selectTaskToVerify.checked){
+            console.log("checked")
+            taskChecked.setAttribute('class', 'taskChecked')
+        }
+        else{
+            console.log("notchecked")
+            taskChecked.removeAttribute('class', 'taskChecked')
+        }});
+
 });
 
-function deleteTask(){
-    document.parentNode.parentNode.remove()}
