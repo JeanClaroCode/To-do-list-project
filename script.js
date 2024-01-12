@@ -1,7 +1,9 @@
+
 var buttonAddTask = document.querySelector('.btn.btn-primary');
 
 buttonAddTask.addEventListener('click', function(event) {
     let taskTextContent = document.querySelector('.form-control').value;
+    
     if(taskTextContent !== "") {
 
     var selectDivMainly = document.getElementById('todoprincipal');
