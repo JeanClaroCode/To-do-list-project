@@ -24,4 +24,4 @@ Explore a [demo ao vivo](https://jeanclarocode.github.io/To-do-list-project/) do
 
 ## Autor
 - GitHub: [@JeanClaroCode](https://github.com/JeanClaroCode)
-- LinkedIn: [Jean Claro](https://www.linkedin.com/in/jean-claro/)
+- LinkedIn: [Jean Claro](https://www.linkedin.com/in/jeanclaro/)
