@@ -1,7 +1,7 @@
 # Projeto Lista de Tarefas
 
 Uma aplicação simples de Lista de Tarefas desenvolvida com HTML, CSS e JavaScript. Permite aos usuários adicionar, marcar como concluído e remover tarefas de forma interativa.
-![Screenshot do Projeto](https://cdn.discordapp.com/attachments/1191939799716732960/1195214074431152259/Screenshot_2024-01-12_005318.png?ex=65b32cd9&is=65a0b7d9&hm=01cdd9fca4a04e06f4d683bf9c1dfcbea9511d3f0a34a4b2858bff87250e2f0d)
+![Screenshot do Projeto](https://media.licdn.com/dms/image/D4D22AQH0YuOBqx1OlQ/feedshare-shrink_800/0/1705373948661?e=1714003200&v=beta&t=VNBfmuK9N7mshES1V8CamR1vlRcT1nFq0AJVRsPI6Xs)
 ## Demonstração
 Explore a [demo ao vivo](https://jeanclarocode.github.io/To-do-list-project/) do projeto!
 
